@@ -1,0 +1,17 @@
+{
+  "name": "@colmena/module-admin-kpi",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@colmena/admin-lb-sdk": "^0.2.0",
+    "@colmena/admin-ui": "^0.2.0",
+    "@ngrx/effects": "^4.1.1",
+    "@ngrx/router-store": "^4.1.1",
+    "@ngrx/store": "^4.1.1",
+    "@ngrx/store-devtools": "^4.1.1",
+    "@nrwl/nx": "^0.1.1"
+  },
+  "author": "Caster Zeng <caster_zeng@wushuu.com>)"
+}

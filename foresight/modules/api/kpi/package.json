@@ -1,0 +1,33 @@
+{
+  "name": "@colmena/module-api-kpi",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "author": "Caster Zeng <caster_zeng@wushuu.com>",
+  "url": "https://github.com/colmena/colmena",
+  "colmena": {
+    "module": {
+      "modelSources": [
+        "common/models"
+      ],
+      "models": {
+        "KPI": {
+          "dataSource": "db"
+        },
+        "FacilityEmission":{
+          "dataSource":"db",
+          "public":true
+        },
+        "Facility":{
+          "dataSource":"db",
+          "public":true
+        }
+      },
+      "sampleData": [
+        "sample-data/sample-data.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Facility",
+    "plural": "Facilities",
+    "base": "KPI",
+    "idInjection": true,
+    "properties": {
+      "calculatePattern":{
+        "type":"string",
+        "required":true
+      },
+      "organizationId": {
+        "type": "string",
+        "required": true
+      },
+      "facilityId": {
+        "type": "string",
+        "required": true
+      },
+      "fuelName": {
+        "type": "string",
+        "required": true
+      },
+      "facilityType": {
+        "type": "string",
+        "required": true
+      },
+      "power": {
+        "type": "string",
+        "required": true
+      },
+      "ash": {
+        "type": "string",
+        "required": true
+      },
+      "sul": {
+        "type": "string",
+        "required": true
+      },
+      "cost": {
+        "type": "string",
+        "required": true
+      }
+    },
+    "validations": [],
+    "relations": {
+    },
+    "acls": [],
+    "methods": []
+  }
